@@ -11,7 +11,7 @@ client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 app = Flask(__name__)
 
 # Banco de dados online no SUPABASE nao mudar nao apagar
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Capacita2025@db.ksxolsmomsdjlrlzzzhe.supabase.co:5432/postgres'
+app.config['SQLALCHEMY_DATABASE_URI'] = ''
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 # Banco de dados online no SUPABASE nao mudar nao apagar
 
